@@ -12,7 +12,7 @@ ecs-monitor uses [git](http://git-scm.com/) as our source control system and [ht
 ***
 
 ## Building the application ##
-TuxWeb uses Maven ([http://maven.apache.org/](http://maven.apache.org/)) for building and packaging the project for deployment.  Please make sure you have at least Maven version 3.0.3.
+ecs-monitor uses Maven ([http://maven.apache.org/](http://maven.apache.org/)) for building and packaging the project for deployment.  Please make sure you have at least Maven version 3.0.3.
 
 	mvn --version
 
@@ -34,5 +34,4 @@ This will generate ecs-monitor project.  The ecs-monitor will be created as a We
 ****
 ### Deployment ###
 
-There are several different applications used for deploying the web application depending on the environment.  For local development often Jetty is used, or sometimes Tomcat.  For our Continuous Integration Server Tomcat is used.  For Production and QA TuxWeb uses WebSphere.
-
+There are several different applications used for deploying the web application depending on the environment.  For local development often Jetty is used, or sometimes Tomcat.  For our Continuous Integration Server Tomcat is used.  
